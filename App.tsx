@@ -1,10 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Counter } from './src/components/Counter';
+import { Input } from './src/components/Input';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Counter/>
+      {/*<Input/>*/}
     </View>
   );
 }
